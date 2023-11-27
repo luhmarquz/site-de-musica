@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 80px;
+    background-color: #0C1446;
+}
+
+
+main{  
+    display: grid;
+    height: 130vw;
+    background-color: #175873;
+
+}
+
+footer{
+    background-color: #0C1446;
+    height: 200px;
+}
+
+.row row-cols-2 row-cols-lg-5 g-2 g-lg-3{
+    display: flex;
+    height: 30px;
+}

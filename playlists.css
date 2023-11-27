@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 80px;
+    background-color: #0C1446;
+}
+
+
+main{  
+    display: grid;
+    height: 130vw;
+    background-color: #175873;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: 'aside header'
+                          'aside main'
+                          'aside footer';
+}
+
+aside{
+    height: 111vh;
+    background-color: #141f64;
+    grid-area: aside;
+}
+
+.titulo{
+    display: flex;
+    color: #A7D8CC;
+    font-size: 18px;
+    background-color: #0C1446;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+
+.pasta{
+    display: flex;
+    color: #A7D8CC;
+    font-size: 18px;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+.playlists{
+    color: #A7D8CC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+.artistas{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+#teste{
+    border-radius: 50%;
+}
+
+header h1{
+    font-size: 30px;
+}
